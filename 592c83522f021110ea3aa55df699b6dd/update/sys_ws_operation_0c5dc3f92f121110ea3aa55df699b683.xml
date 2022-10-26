@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>*/*</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>IMG</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var fileName = request.pathParams.file;
+    var currentRecord = "ac5b3ac813da041032813092e144b01c";
+    var ar = new GlideRecord('sys_attachment');
+//     ar.addQuery('table_sys_id', currentRecord);
+    ar.addQuery('file_name', fileName);
+    ar.query();
+	
+	response.setContentType('image/jpeg');
+    response.setStatus(200);
+
+    if (ar.next()) {
+		var gsa = new GlideSysAttachment();
+		var attachmentStream = new gsa.getContentStream(ar.sys_id.toString()); 
+		var writer = response.getStreamWriter();
+		writer.writeStream(attachmentStream);
+    } else {
+        return "file not found";
+	}
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_867104_ccoe_dev/container/img/{file}</operation_uri>
+        <produces>image/*</produces>
+        <produces_customized>true</produces_customized>
+        <relative_path>/img/{file}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 13:43:39</sys_created_on>
+        <sys_id>0c5dc3f92f121110ea3aa55df699b683</sys_id>
+        <sys_name>IMG</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>sys_ws_operation_0c5dc3f92f121110ea3aa55df699b683</sys_update_name>
+        <web_service_definition display_value="Container">bed9c3392f121110ea3aa55df699b622</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

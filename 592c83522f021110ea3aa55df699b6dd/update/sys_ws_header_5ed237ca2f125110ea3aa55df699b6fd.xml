@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_header">
+    <sys_ws_header action="INSERT_OR_UPDATE">
+        <example_value>test</example_value>
+        <name>test</name>
+        <required>false</required>
+        <short_description/>
+        <sys_class_name>sys_ws_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-04 11:04:39</sys_created_on>
+        <sys_id>5ed237ca2f125110ea3aa55df699b6fd</sys_id>
+        <sys_name>test</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>sys_ws_header_5ed237ca2f125110ea3aa55df699b6fd</sys_update_name>
+        <web_service_definition display_value="Container">bed9c3392f121110ea3aa55df699b622</web_service_definition>
+    </sys_ws_header>
+</record_update>

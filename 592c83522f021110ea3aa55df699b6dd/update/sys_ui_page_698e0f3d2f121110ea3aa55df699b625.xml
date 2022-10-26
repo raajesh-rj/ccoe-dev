@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>htmleditor</category>
+        <client_script><![CDATA[function delCache(){
+	console.log('inside onload');
+	var oAuthClient = new  sn_auth.GlideOAuthClient();
+	console.log("oauth ", oAuthClient);
+// 	var cc = new cacheUtil();
+// 	cc.clearCache();
+// 	var cc = new global.cacheUtil();
+	var cc = new GlideAjax('cacheUtil');
+	cc.clearCache();
+// 	cc.addParam("sysparm_name","clearCache");
+}]]></client_script>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_867104_ccoe_dev_index-html.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly
+  trim="false"
+  xmlns:j="jelly:core"
+  xmlns:g="glide"
+  xmlns:j2="null"
+  xmlns:g2="null"
+  ><g:evaluate> var docType = '&lt;!DOCTYPE HTML&gt;'; </g:evaluate>
+  <g2:no_escape> $[docType] </g2:no_escape>
+  <head>
+    <meta charset="utf-8" />
+<!--     <link rel="icon" href="favicon.ico" /> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+<!--     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <title>Cloud Center of Excellence Portal</title>
+    <!-- handle security token for API requests -->
+    <div style="display: none">
+      <g:evaluate object="true">
+		 var oAuthClient = new  sn_auth.GlideOAuthClient();
+		  gs.info("oauth ", oAuthClient);
+			console.log("oauth ", oAuthClient);
+		  var session = gs.getSession(); var token = session.getSessionToken(); if
+		  (token=='' || token==undefined) token = gs.getSessionToken();
+      </g:evaluate>
+			
+    </div>
+    <script>
+		window.servicenowUserToken = "$[token]";
+    </script>
+    <!-- handle security token for API requests -->
+  </head>
+  <body onload="delCache()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+<!-- 	  <img src="/api/x_867104_ccoe_dev/container/img/102058-order-completed-1-24bb4d-gif"/> -->
+    <script type="text/javascript" src="/api/x_867104_ccoe_dev/container/js/app-1234512345-js"></script>
+  </body
+></j:jelly>
+]]></html>
+        <name>index-html</name>
+        <processing_script><![CDATA[function delCache(){
+	var result = new cacheUtil().clearCache();
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-03 13:47:47</sys_created_on>
+        <sys_id>698e0f3d2f121110ea3aa55df699b625</sys_id>
+        <sys_name>index-html</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>sys_ui_page_698e0f3d2f121110ea3aa55df699b625</sys_update_name>
+    </sys_ui_page>
+</record_update>

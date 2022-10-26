@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_867104_ccoe_dev_sample_html.do</endpoint>
+        <html><![CDATA[<html>
+<head>
+	<meta charset="utf-8"></meta>
+     <title>Now IoT Portal</title>
+</head>	
+	<body>
+<div>
+	<p>HTML content</p>
+</div>	
+	</body>
+</html>]]></html>
+        <name>sample_html</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 16:44:39</sys_created_on>
+        <sys_id>2b8c87562f021110ea3aa55df699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample_html</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>sys_ui_page_2b8c87562f021110ea3aa55df699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-22 16:44:39</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</application>
+        <file_path/>
+        <instance_id>d96a17cddb593fc03050ac44d4961995</instance_id>
+        <instance_name>dev85639</instance_name>
+        <name>sys_ui_page_2b8c87562f021110ea3aa55df699b68c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_867104_ccoe_dev_sample_html.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset="utf-8"&gt;&lt;/meta&gt;
+     &lt;title&gt;Now IoT Portal&lt;/title&gt;
+&lt;/head&gt;	
+	&lt;body&gt;
+&lt;div&gt;
+	&lt;p&gt;HTML content&lt;/p&gt;
+&lt;/div&gt;	
+	&lt;/body&gt;
+&lt;/html&gt;]]&gt;&lt;/html&gt;&lt;name&gt;sample_html&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-22 16:44:39&lt;/sys_created_on&gt;&lt;sys_id&gt;2b8c87562f021110ea3aa55df699b68c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sample_html&lt;/sys_name&gt;&lt;sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev"&gt;592c83522f021110ea3aa55df699b6dd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ccoe-dev"&gt;592c83522f021110ea3aa55df699b6dd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_2b8c87562f021110ea3aa55df699b68c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-22 16:44:39&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1960162391</payload_hash>
+        <record_name>sample_html</record_name>
+        <reverted_from/>
+        <source>992c83522f021110ea3aa55df699b6df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-22 16:44:39</sys_created_on>
+        <sys_id>b1ad87562f021110ea3aa55df699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1836616458a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-22 16:44:39</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>f9ad875696021110acb0304192e6c3bf</update_guid>
+        <update_guid_history>f9ad875696021110acb0304192e6c3bf:-1960162391</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-04 09:23:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>36f61568328d42b9bde8960637187881</sys_id>
+        <sys_metadata>2b8c87562f021110ea3aa55df699b68c</sys_metadata>
+        <sys_name>sample_html</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_scope_delete display_value="">1b9638c070ea43fa9c830cbc2db5e3a4</sys_scope_delete>
+        <sys_update_name>sys_ui_page_2b8c87562f021110ea3aa55df699b68c</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_2b8c87562f021110ea3aa55df699b68c">b1ad87562f021110ea3aa55df699b6c0</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
