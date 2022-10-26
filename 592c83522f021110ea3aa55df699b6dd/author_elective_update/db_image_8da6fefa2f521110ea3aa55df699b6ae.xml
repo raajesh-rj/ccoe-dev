@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image/>
+        <name>static/media/cloud-logos.19f818be11b4e072dee2.png</name>
+        <size_bytes/>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-06 14:37:07</sys_created_on>
+        <sys_id>8da6fefa2f521110ea3aa55df699b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>static/media/cloud-logos.19f818be11b4e072dee2.png</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>db_image_8da6fefa2f521110ea3aa55df699b6ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-06 14:37:07</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</application>
+        <file_path/>
+        <instance_id>d96a17cddb593fc03050ac44d4961995</instance_id>
+        <instance_name>dev85639</instance_name>
+        <name>db_image_8da6fefa2f521110ea3aa55df699b6ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format/><height/><image/><name>static/media/cloud-logos.19f818be11b4e072dee2.png</name><size_bytes/><sys_class_name>db_image</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-06 14:37:07</sys_created_on><sys_id>8da6fefa2f521110ea3aa55df699b6ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>static/media/cloud-logos.19f818be11b4e072dee2.png</sys_name><sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package><sys_policy/><sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope><sys_update_name>db_image_8da6fefa2f521110ea3aa55df699b6ae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-06 14:37:07</sys_updated_on><thumbnail/><width/></db_image></record_update>]]></payload>
+        <payload_hash>1247956547</payload_hash>
+        <record_name>static/media/cloud-logos.19f818be11b4e072dee2.png</record_name>
+        <reverted_from/>
+        <source>992c83522f021110ea3aa55df699b6df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-06 14:37:07</sys_created_on>
+        <sys_id>2eb6f23e2f521110ea3aa55df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183adba8d4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-06 14:37:07</sys_updated_on>
+        <type>Images</type>
+        <update_guid>66b6f23e89521110c6d088f28a2afe90</update_guid>
+        <update_guid_history>66b6f23e89521110c6d088f28a2afe90:1247956547</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="static/media/cloud-logos.19f818be11b4e072dee2.png">6053f1df2fa65110ea3aa55df699b604</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 09:15:18</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>132986ab229f4dd399f403eb348f28d1</sys_id>
+        <sys_metadata>8da6fefa2f521110ea3aa55df699b6ae</sys_metadata>
+        <sys_name>static/media/cloud-logos.19f818be11b4e072dee2.png</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_scope_delete display_value="">1b9638c070ea43fa9c830cbc2db5e3a4</sys_scope_delete>
+        <sys_update_name>db_image_8da6fefa2f521110ea3aa55df699b6ae</sys_update_name>
+        <sys_update_version display_value="db_image_8da6fefa2f521110ea3aa55df699b6ae">2eb6f23e2f521110ea3aa55df699b690</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

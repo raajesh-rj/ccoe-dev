@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_867104_ccoe_dev.cacheUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>cacheUtil</name>
+        <script><![CDATA[var cacheUtil = Class.create();
+cacheUtil.prototype = {
+    initialize: function() {
+},
+	clearCache: function() {
+		gs.info('clearing cache');
+		gs.cacheFlush();
+},
+    type: 'cacheUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 12:54:28</sys_created_on>
+        <sys_id>86f4aedf2f6a5110ea3aa55df699b616</sys_id>
+        <sys_name>cacheUtil</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_update_name>sys_script_include_86f4aedf2f6a5110ea3aa55df699b616</sys_update_name>
+    </sys_script_include>
+</record_update>

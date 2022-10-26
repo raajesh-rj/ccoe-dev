@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 10:04:32</sys_created_on>
+        <sys_id>a328c7a32faa9110ea3aa55df699b65a</sys_id>
+        <sys_name>cache.x_867104_ccoe_dev.admin</sys_name>
+        <sys_package display_value="ccoe-dev" source="x_867104_ccoe_dev">592c83522f021110ea3aa55df699b6dd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ccoe-dev">592c83522f021110ea3aa55df699b6dd</sys_scope>
+        <sys_security_acl display_value="cache">9b28c7a32faa9110ea3aa55df699b656</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a328c7a32faa9110ea3aa55df699b65a</sys_update_name>
+        <sys_user_role display_value="x_867104_ccoe_dev.admin" name="x_867104_ccoe_dev.admin">a42371df2fa65110ea3aa55df699b606</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
